@@ -1,0 +1,7 @@
+<h1> <%= @restaurant.name %> </h1>
+<p> The cuisine is <%= @restaurant.category %></p>
+<p> You can find us at <%= @restaurant.address %></p>
+<p> Call us at <%= @restaurant.phone_number %></p>
+
+<%= link_to "see all restaurants", restaurants_path %>
+<%= link_to "update restaurant", edit_restaurant_path %>
